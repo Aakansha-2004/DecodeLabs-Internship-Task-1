@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="assets/images/hero-architecture.svg" alt="Decode Labs — Modern architecture hero illustration" width="720">
-</p>
-
-<h1 align="center">Decode Labs</h1>
+# Decode Labs
 
 <p align="center">
   <strong>Designing tomorrow's architecture today.</strong><br>
@@ -10,179 +6,239 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Responsive-Yes-2ea44f?style=for-the-badge" alt="Responsive">
-  <img src="https://img.shields.io/badge/Framework-Free-555?style=for-the-badge" alt="No frameworks">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/Responsive-Yes-2ea44f?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Framework-Free-555?style=for-the-badge">
 </p>
 
 ---
 
 ## Overview
 
-**Decode Labs** is a single-page portfolio website for a fictional architecture design studio. It showcases professional UI/UX patterns, responsive layouts across all device sizes, and clean, maintainable code — making it ideal for internship evaluation and GitHub portfolio submission.
+**Decode Labs** is a modern single-page architecture studio website designed to showcase professional UI/UX practices, responsive layouts, and clean frontend development.
 
-The site presents ten distinct sections — from a sticky navigation bar and hero banner to a contact form and multi-column footer — all crafted with accessibility and performance in mind.
+The project focuses on creating a premium digital experience using only core web technologies without relying on external frontend frameworks.
+
+It demonstrates structured coding practices, accessibility standards, responsive design principles, and interactive JavaScript functionality.
 
 ---
 
 ## Live Preview
 
-Open `index.html` in any modern browser to explore the full experience. No build step required.
+Open `index.html` in any modern browser to experience the complete website.
+
+No installation, build tools, or dependencies are required.
 
 ---
 
-## Highlights
+# Features
 
-| | |
-|:---:|:---:|
-| <img src="assets/images/project-1.svg" alt="Urban Horizon Tower" width="280"> | <img src="assets/images/project-2.svg" alt="Green Valley Residence" width="280"> |
-| **Urban Horizon Tower** | **Green Valley Residence** |
-| <img src="assets/images/project-3.svg" alt="Coastal Pavilion" width="280"> | <img src="assets/images/project-4.svg" alt="Skyline Office Hub" width="280"> |
-| **Coastal Pavilion** | **Skyline Office Hub** |
+## Website Sections
+
+### Sticky Header / Navigation
+
+* Brand logo and navigation menu
+* Call-to-action button
+* Mobile-friendly hamburger menu
+* Smooth navigation experience
+
+### Hero Section
+
+* Strong headline presentation
+* Supporting description
+* Action buttons
+* Responsive layout structure
+
+### Features Section
+
+* Professional feature cards
+* Clean UI structure
+* Modern content presentation
+
+### Architecture Grid Section
+
+* CSS Grid based layout
+* Structured sidebar and content area
+* Flexible responsive design
+
+### Services Section
+
+Includes different architecture services:
+
+* Residential Design
+* Commercial Architecture
+* Interior Design
+* Planning & Development
+
+### Project Showcase
+
+A structured project gallery section displaying architecture projects with:
+
+* Responsive card layout
+* Hover animations
+* Modern UI styling
+
+### Statistics Section
+
+* Animated counters
+* Scroll-based triggering
+* Interactive user experience
+
+### Testimonials Section
+
+* Client feedback cards
+* Professional layout design
+* Responsive presentation
+
+### Contact Form
+
+Includes:
+
+* Name field
+* Email field
+* Subject field
+* Message field
+* JavaScript validation
+
+### Footer
+
+Contains:
+
+* Company information
+* Quick navigation links
+* Social media section
+* Copyright details
 
 ---
 
-## Features
+# JavaScript Functionality
 
-### Page Sections
-- **Sticky Header / Navbar** — Logo, navigation links, CTA button, and mobile hamburger menu
-- **Hero Section** — Bold headline, supporting text, dual CTAs, and hero illustration
-- **Features Section** — Three feature cards with icons, titles, and descriptions
-- **Architecture Grid Section** — CSS Grid layout with sidebar and main content area
-- **Services Section** — Four service cards with "Learn More" buttons
-- **Project Showcase** — Six project cards in a CSS Grid gallery with hover zoom
-- **Statistics Section** — Animated number counters triggered on scroll
-- **Testimonials Section** — Three client testimonial cards with avatars
-- **Contact Form** — Validated form with Name, Email, Subject, and Message fields
-- **Footer** — Company info, quick links, social media icons, and copyright
+The website includes:
 
-### JavaScript Interactivity
-1. Mobile hamburger menu with keyboard support (Escape to close)
-2. Dark mode toggle with localStorage persistence
-3. Smooth scrolling for in-page anchor links
-4. Back-to-top button with scroll threshold
-5. Contact form validation with inline error messages
-6. Animated statistics counter using IntersectionObserver
-7. Navbar scroll effect (shadow on scroll)
-
-### Accessibility
-- Skip-to-content link
-- Semantic HTML5 landmarks
-- Alt text on all images
-- Form labels and ARIA attributes
-- Visible focus indicators
-- Keyboard-navigable interactive elements
+1. Mobile navigation menu
+2. Keyboard support for accessibility
+3. Dark mode toggle
+4. Local storage theme saving
+5. Smooth scrolling
+6. Back-to-top button
+7. Contact form validation
+8. Animated statistics counter
+9. Navbar scroll effects
 
 ---
 
-## Technologies Used
+# Accessibility Features
 
-- **HTML5** — Semantic markup with header, nav, main, section, article, aside, and footer
-- **CSS3** — Custom properties, CSS Grid, Flexbox, animations, and media queries
-- **JavaScript** — Vanilla ES6+ with modular init functions
+The project follows accessibility best practices:
 
-> No React, Bootstrap, Tailwind, jQuery, or external frontend frameworks were used.
-
----
-
-## Responsive Design
-
-This project follows a **mobile-first** approach, building base styles for small screens and progressively enhancing for larger viewports.
-
-| Breakpoint | Range | Key Adaptations |
-|------------|-------|-----------------|
-| Mobile | 0 – 767px | Single-column layouts, hamburger navigation, stacked hero |
-| Tablet | 768px – 1023px | Two/three-column grids, visible nav links, expanded footer |
-| Desktop | 1024px+ | Full multi-column layouts, side-by-side hero, architecture grid sidebar |
-
-All layouts are tested to prevent horizontal scrolling and maintain visual integrity across screen sizes.
+* Semantic HTML5 structure
+* Proper form labels
+* Keyboard navigation support
+* ARIA attributes
+* Focus indicators
+* Screen-reader-friendly structure
 
 ---
 
-## Project Structure
+# Technologies Used
+
+## HTML5
+
+Used for:
+
+* Semantic structure
+* Proper webpage organization
+* Accessible markup
+
+## CSS3
+
+Used for:
+
+* Custom styling
+* Flexbox layouts
+* CSS Grid
+* Animations
+* Responsive design
+* Media queries
+
+## JavaScript (ES6+)
+
+Used for:
+
+* Website interaction
+* Dynamic behavior
+* Form validation
+* User experience improvements
+
+> No React, Bootstrap, Tailwind CSS, jQuery, or external frameworks were used.
+
+---
+
+# Responsive Design
+
+The website follows a mobile-first development approach.
+
+| Device  | Design Approach                                           |
+| ------- | --------------------------------------------------------- |
+| Mobile  | Single-column layout, mobile navigation, stacked sections |
+| Tablet  | Flexible grids and improved spacing                       |
+| Desktop | Full responsive multi-column layouts                      |
+
+The design ensures smooth performance and proper appearance across different screen sizes.
+
+---
+
+# Project Structure
 
 ```
 project-1/
-├── index.html          # Main HTML document
-├── style.css           # All styles (mobile-first)
-├── script.js           # Interactive functionality
-├── README.md           # Project documentation
-└── assets/
-    ├── images/         # Hero, project, and avatar images
-    │   ├── hero-architecture.svg
-    │   ├── project-1.svg … project-6.svg
-    │   └── avatar-1.svg … avatar-3.svg
-    └── icons/          # Feature, service, and social icons
-        ├── responsive.svg
-        ├── grid.svg
-        ├── architecture.svg
-        ├── residential.svg
-        ├── commercial.svg
-        ├── interior.svg
-        ├── planning.svg
-        ├── linkedin.svg
-        ├── twitter.svg
-        ├── instagram.svg
-        └── arrow-up.svg
+
+├── index.html        # Main HTML document
+├── style.css         # Website styling
+├── script.js         # JavaScript functionality
+└── README.md         # Documentation
 ```
 
 ---
 
-## Visual Tour
+# Installation
 
-<p align="center">
-  <img src="assets/images/project-5.svg" alt="Riverside Cultural Center" width="340">
-  &nbsp;&nbsp;
-  <img src="assets/images/project-6.svg" alt="Minimalist Studio Loft" width="340">
-</p>
+No package manager or build tools are required.
 
-<p align="center"><em>Project showcase cards with hover effects and CSS Grid layout</em></p>
+Steps:
 
-<p align="center">
-  <img src="assets/images/avatar-1.svg" alt="Client testimonial avatar" width="80">
-  <img src="assets/images/avatar-2.svg" alt="Client testimonial avatar" width="80">
-  <img src="assets/images/avatar-3.svg" alt="Client testimonial avatar" width="80">
-</p>
+1. Clone or download the repository
+2. Open the project folder
+3. Open `index.html` in any browser
 
-<p align="center"><em>Testimonials section with client avatars and card layout</em></p>
+For development:
+
+1. Install Live Server extension in VS Code
+2. Open `index.html`
+3. Select "Open with Live Server"
 
 ---
 
-## Installation
+# Future Improvements
 
-No build tools or package managers are required. To run locally:
+Possible future upgrades:
 
-1. **Clone or download** the project folder
-2. **Navigate** to the `project-1` directory
-3. **Open** `index.html` in any modern web browser
-
-Alternatively, use the **Live Server** extension in VS Code for auto-reload during development:
-
-1. Install the Live Server extension
-2. Right-click `index.html` → "Open with Live Server"
-
----
-
-## Future Improvements
-
-- Add a blog section with article cards
-- Convert to a multi-page site with client-side routing
-- Integrate a headless CMS for dynamic project content
-- Connect the contact form to a real backend API or email service
-- Add image lazy loading and WebP format support
-- Implement a project detail modal or lightbox gallery
-- Add internationalization (i18n) support
+* Add backend integration
+* Connect contact form with email service
+* Add database support
+* Create project detail pages
+* Improve SEO optimization
+* Add performance optimization
+* Convert into a full-stack application
 
 ---
 
-## Author
+# Author
 
-**Easha**
+**Aakansha**
 
 ---
 
-## License
-
-This project is created for educational and portfolio purposes as part of the **Decode Labs** internship program.
+This project is created for educational and portfolio purposes as part of the **Decode Labs Internship Program**.
